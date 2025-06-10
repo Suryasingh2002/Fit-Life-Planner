@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracking - FitLife Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fitness Tracking</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meal-planning.html">Meal Planning</a></li>
+                <li><a href="scheduler.html">Daily Routine Scheduler</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Log Your Workouts</h2>
+        <form id="workout-form">
+            <label for="workout-type">Workout Type:</label>
+            <input type="text" id="workout-type" required>
+            <label for="duration">Duration (minutes):</label>
+            <input type="number" id="duration" required>
+            <button type="submit">Log Workout</button>
+        </form>
+        <h3>Your Workout History</h3>
+        <ul id="workout-history">
+            <!-- Workout entries will be dynamically added here -->
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2025 FitLife Planner</p>
+    </footer>
+    <script src="fitness-tracker.js"></script>
+</body>
+</html>

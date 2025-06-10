@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Routine Scheduler - FitLife Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Daily Routine Scheduler</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meal-planning.html">Meal Planning</a></li>
+                <li><a href="fitness-tracking.html">Fitness Tracking</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Schedule Your Daily Activities</h2>
+        <form id="schedule-form">
+            <label for="activity">Activity:</label>
+            <input type="text" id="activity" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+            <button type="submit">Add Activity</button>
+        </form>
+        <h3>Your Scheduled Activities</h3>
+        <ul id="activity-list">
+            <!-- Scheduled activities will be dynamically added here -->
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2025 FitLife Planner</p>
+    </footer>
+   <!--- <script src="script.js"></script> -->
+    <script src="scheduler.js"></script>
+</body>
+</html>
